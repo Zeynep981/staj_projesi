@@ -120,7 +120,7 @@ plt.ylabel('Müşteri Sayısı')<br/>
 plt.show()<br/>
 ### *Grafik:*<br/>
 
-![Cinsiyete Göre Müşteri Sayısı Grafiği]()
+![Cinsiyete Göre Müşteri Sayısı Grafiği](https://github.com/Zeynep981/staj_projesi/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-07-10%20145830.png)
 
 10. **Yaş ve Kredi Skoru Dağılımı Grafiği**
     - `plt.figure(figsize=(10, 6))`: Bu satır, yeni bir figür oluşturur ve grafiğin boyutunu 10x6 inç olarak ayarlar.
