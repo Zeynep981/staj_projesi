@@ -120,6 +120,8 @@ plt.ylabel('Müşteri Sayısı')<br/>
 plt.show()<br/>
 ### *Grafik:*<br/>
 
+![Cinsiyete Göre Müşteri Sayısı Grafiği]()
+
 10. **Yaş ve Kredi Skoru Dağılımı Grafiği**
     - `plt.figure(figsize=(10, 6))`: Bu satır, yeni bir figür oluşturur ve grafiğin boyutunu 10x6 inç olarak ayarlar.
     - `sns.scatterplot(x='Age', y='CreditScore', hue='Exited', data=data_set, palette='coolwarm', alpha=0.5)`:
@@ -135,6 +137,8 @@ plt.xlabel('Yaş')<br/>
 plt.ylabel('Kredi Skoru')<br/>
 plt.show()<br/>
 ### *Grafik:*<br/>
+
+![Yaş ve Kredi Skoru Dağılımı Grafiği]()
 ## **Kodu Çalıştırma Talimatları**<br/>
 
 
