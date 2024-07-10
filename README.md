@@ -12,7 +12,7 @@ Analiz süreci, veri setinin incelenmesi, temizlenmesi, keşifsel veri analizi (
 - Kadın müşterilerin kredi skorlarının yaş ve skor arasındaki ilişkinin analiz edilmesi<br/>
 - En az süre çalışan kadın müşterinin bilgilerinin belirlenmesi<br/>
 - Veri setinde soyadı en az iki kez tekrar eden müşterilerin listelenmesi<br/>
-
+- Kodu Çalıştırma Talimatları
 ## **İçindekiler**
 1. Veri Yükleme ve İlk İnceleme<br/>
 2. Eksik Verilerin Tespiti<br/>
@@ -24,7 +24,8 @@ Analiz süreci, veri setinin incelenmesi, temizlenmesi, keşifsel veri analizi (
 8. Soyadı En Az İki Kez Tekrar Eden Müşterilerin Tespiti<br/>
 9. Cinsiyete Göre Müşteri Sayısı Grafiği<br/>
 10. Yaş ve Kredi Skoru Dağılımı Grafiği<br/>
-    
+11. Kodu Çalıştırma Talimatları
+        
 ## **Projenin Adım Adım Özeti:**<br/>
 1. **Veri Yükleme ve Görüntüleme:**
    - CSV dosyasındaki veriler `pandas` kütüphanesi kullanılarak okunmuş ve `data_set` adlı bir veri çerçevesine aktarılmıştır.<br/>
@@ -63,11 +64,11 @@ print("en çok yer alan ülke:",top_geography)<br/>
    - Veri setindeki İspanya'da yaşayanların kredi skorlarının onlar basamağına göre ortalaması hesaplanmıştır. Skor ortalaması `np.floor(data_set[data_set['Geography'] == 'Spain']['CreditScore'] / 10) * 10`
  işlemi ile bulunmuş ve gruplanmıştır.<br/>
 ### *İşlem Kodları:*<br/>
-italyanlar=data_set['italyanlar'] = data_set['Geography'] == 'Spain'<br/>
-print(italyanlar)<br/>
+ispanyollarr=data_set['ispanyollar'] = data_set['Geography'] == 'Spain'<br/>
+print(ispanyollar)<br/>
 data_set['onluk_skor'] = (np.floor(data_set['CreditScore'] / 10) * 10)<br/>
-italyanların_skor_ortu = data_set.groupby('onluk_skor', as_index=False)['italyanlar'].mean()<br/>
-print(italyanların_skor_ortu)<br/>
+ispanyolların_skor_ortu = data_set.groupby('onluk_skor', as_index=False)['ispanyollar'].mean()<br/>
+print(ispanyolların_skor_ortu)<br/>
 
 6. **Kadın Müşterilerin Kredi Skor Analizi:**
    - Veri setindeki kadınların kredi skorlarının onlar basamağına göre ortalaması hesaplanmıştır. Skor ortalaması `np.floor(data_set[data_set['Gender'] == 'Female']['CreditScore'] / 10) * 10`
@@ -117,6 +118,7 @@ plt.title('Cinsiyete Göre Müşteri Sayısı')<br/>
 plt.xlabel('Cinsiyet')<br/>
 plt.ylabel('Müşteri Sayısı')<br/>
 plt.show()<br/>
+### *Grafik:*<br/>
 
 10. **Yaş ve Kredi Skoru Dağılımı Grafiği**
     - `plt.figure(figsize=(10, 6))`: Bu satır, yeni bir figür oluşturur ve grafiğin boyutunu 10x6 inç olarak ayarlar.
@@ -132,3 +134,7 @@ plt.title('Yaş ve Kredi Skoru Arasındaki İlişki')<br/>
 plt.xlabel('Yaş')<br/>
 plt.ylabel('Kredi Skoru')<br/>
 plt.show()<br/>
+### *Grafik:*<br/>
+## **Kodu Çalıştırma Talimatları**<br/>
+
+
