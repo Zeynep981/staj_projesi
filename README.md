@@ -138,7 +138,22 @@ plt.ylabel('Kredi Skoru')<br/>
 plt.show()<br/>
 ### *Grafik:*<br/>
 
-![Yaş ve Kredi Skoru Dağılımı Grafiği]()
-## **Kodu Çalıştırma Talimatları**<br/>
+![Yaş ve Kredi Skoru Dağılımı Grafiği](https://github.com/Zeynep981/staj_projesi/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-07-10%20145938.png)
 
+## **Kodu Çalıştırma Talimatları**<br/>
+Bu proje geliştirme sürecinde google colab kullanılmıştır. Kodu çalıştırma talimatları da bu doğrultuda açıklanmıştır.<br/>
+Google Colab ile kodları çalıştırmak için aşağıdaki adımları izleyebilirsiniz:<br/>
+1. **Google Colab'e Git:**
+   - Google Colab'e gitmek için [Google Colab](https://colab.research.google.com/) sayfasını ziyaret edin.
+2. **Google Drive'ı Bağlama:**
+   - Google Drive'ınızı Colab'e bağlamak için aşağıdaki kodu yeni bir hücreye yapıştırın ve çalıştırın. Bu işlem, CSV dosyanıza erişmenizi sağlayacaktır.
+     `python`
+     `from google.colab import drive`
+     `drive.mount('/content/drive')`
+3. **CSV Dosyasının Yolunu Belirleme:**
+   - CSV dosyanızın Google Drive'da nerede olduğunu belirleyin ve dosya yolunu not edin. Örneğin, `'/content/drive/MyDrive/Adsız klasör/dataset.csv'`.   
+4. **Kodları Yapıştırma ve Çalıştırma:**
+   - Yukarıda yer alan işlem kodlarını Google Colab'deki hücrelere sırayla yapıştırın ve her hücreyi çalıştırın.<br/>
+Bu adımları izleyerek Google Colab üzerinde projenizi çalıştırabilir ve analizlerinizi gerçekleştirebilirsiniz.
+     
 
