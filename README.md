@@ -24,7 +24,8 @@ Analiz süreci, veri setinin incelenmesi, temizlenmesi, keşifsel veri analizi (
 8. Soyadı En Az İki Kez Tekrar Eden Müşterilerin Tespiti<br/>
 9. Cinsiyete Göre Müşteri Sayısı Grafiği<br/>
 10. Yaş ve Kredi Skoru Dağılımı Grafiği<br/>
-11. Kodu Çalıştırma Talimatları
+11. Gerekli bağımlılıklar (Kullanılan Kütüphaneler)
+12. Kodu Çalıştırma Talimatları
         
 ## **Projenin Adım Adım Özeti:**<br/>
 1. **Veri Yükleme ve Görüntüleme:**
@@ -139,7 +140,11 @@ plt.show()<br/>
 ### *Grafik:*<br/>
 
 ![Yaş ve Kredi Skoru Dağılımı Grafiği](https://github.com/Zeynep981/staj_projesi/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-07-10%20145938.png)
-
+## **Gerekli Bağımlılıklar (Kullanılan Kütüphaneler)**<br/>
+- `pandas`: Veri analizi ve veri manipülasyonu için kullanıldı.
+- `numpy`: Sayısal hesaplamalar için kullanıldı.
+- `seaborn`: Veri görselleştirme için kullanıldı.
+- `matplotlib`: Veri görselleştirme için kullanıldı.
 ## **Kodu Çalıştırma Talimatları**<br/>
 Bu proje geliştirme sürecinde Google Colab kullanılmıştır. Kodu çalıştırma talimatları da bu doğrultuda açıklanmıştır.<br/>
 Google Colab ile kodları çalıştırmak için aşağıdaki adımları izleyebilirsiniz:<br/>
