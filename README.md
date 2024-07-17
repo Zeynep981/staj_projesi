@@ -140,6 +140,7 @@ plt.show()<br/>
 ### *Grafik:*<br/>
 
 ![Yaş ve Kredi Skoru Dağılımı Grafiği](https://github.com/Zeynep981/staj_projesi/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-07-10%20145938.png)
+
 ## **Gerekli Bağımlılıklar (Kullanılan Kütüphaneler)**<br/>
 - `pandas`: Veri analizi ve veri manipülasyonu için kullanıldı.
 - `numpy`: Sayısal hesaplamalar için kullanıldı.
